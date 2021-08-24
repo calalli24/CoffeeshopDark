@@ -1,0 +1,448 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#Header {
+  padding: 35px 0;
+  background-color: #000;
+  border-bottom: 1px solid #292727;
+}
+
+#Header a {
+  text-decoration: none;
+  font-size: 16px;
+  font-family: "Jost", sans-serif;
+  font-weight: bold;
+  color: #fff;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+#Header a:hover {
+  color: #C7A17A;
+}
+
+#Header i {
+  color: #fff;
+}
+
+#Header .navbar2 {
+  margin-right: 50px;
+}
+
+#Header .navbar2 p {
+  margin-left: 45px;
+}
+
+#Header .navbar2 .icons i {
+  margin-left: 45px;
+  font-size: 20px;
+}
+
+#Phone-Header {
+  display: none;
+  background-color: #000;
+  border-bottom: 1px solid #272525;
+}
+
+#Phone-Header i {
+  color: #fff;
+  font-size: 20px;
+  margin-left: 30px;
+}
+
+@media (max-width: 576px) {
+  #Header {
+    display: none;
+  }
+  #Phone-Header {
+    display: block;
+  }
+}
+
+#First {
+  background-image: url(https://xpressrow.com/html/cafena/cafena/assets/images/hero/hero-img-3-1.jpeg);
+  background-position: center;
+  background-size: cover;
+  padding: 13rem 0;
+}
+
+#First h1 {
+  font-family: 'Bebas Neue', cursive;
+  color: #fff;
+  font-size: 100px;
+}
+
+#First p {
+  font-family: 'Jost',sans-serif;
+  font-size: 18px;
+  color: #a7a7a7;
+}
+
+#First .buttons {
+  margin-top: 2rem;
+}
+
+#First .buttons .a1 {
+  background-color: #C7A17A;
+  border: 1px solid #C7A17A;
+  margin-right: 15px;
+}
+
+#First .buttons .a1:hover {
+  background-color: grey;
+}
+
+#First .buttons .a2 {
+  border: 1px solid #a7a7a7;
+}
+
+#First .buttons .a2:hover {
+  background-color: #C7A17A;
+}
+
+#First .buttons a {
+  padding: 14px 45px;
+  font-size: 12px;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 5px;
+  font-family: 'Babas Neue',cursive;
+  font-weight: bold;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+#First .links {
+  margin-top: 4rem;
+}
+
+#First .links .item {
+  margin-right: 40px;
+}
+
+#First .links .item i {
+  color: #fff;
+  margin: 4px 10px 0 0;
+}
+
+#First .links .item p {
+  font-family: 'Jost',sans-serif;
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+#First .video {
+  margin: 20rem 0 0 25rem;
+}
+
+#First .video a:hover i {
+  background-color: #C7A17A;
+}
+
+#First .video a i {
+  -webkit-transition: .4s;
+  transition: .4s;
+  text-align: center;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  padding: 25px;
+  color: #fff;
+}
+
+#First .video a span {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 5px;
+  font-family: 'Jost',sans-serif;
+  font-weight: bold;
+}
+
+#Second {
+  background-color: #000;
+  padding: 7rem 0;
+}
+
+#Second .left {
+  background-image: url(https://xpressrow.com/html/cafena/cafena/assets/images/products/f-1.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+#Second .mid {
+  background-image: url(https://xpressrow.com/html/cafena/cafena/assets/images/products/f-2.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+#Second .right {
+  background-image: url(https://xpressrow.com/html/cafena/cafena/assets/images/products/f-3.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+#Second .box {
+  padding: 0 12rem 3rem 0;
+  border: 1px solid #424040;
+}
+
+#Second .box .text {
+  margin: 30px 0 0 40px;
+}
+
+#Second .box span {
+  font-size: 15px;
+  color: #C7A17A;
+}
+
+#Second .box h2 {
+  font-size: 24px;
+  color: #fff;
+  letter-spacing: 0.5px;
+  font-family: 'Jost',sans-serif;
+  font-weight: bold;
+}
+
+#Second .box p {
+  font-size: 16px;
+  color: #fff;
+  opacity: 0.8;
+  font-family: 'Jost',sans-serif;
+}
+
+#Third {
+  padding: 8rem 0;
+  background-color: #000;
+}
+
+#Third .all {
+  background-color: #13131A;
+  border: 1px solid #32323D;
+  border-left: 0px;
+  text-align: left;
+  padding: 73px 17px;
+}
+
+#Third .all .text {
+  margin-left: 3rem;
+}
+
+#Third .all .text span {
+  font-family: "Jost", sans-serif;
+  color: #fff;
+  font-size: 12px;
+  background-color: #C7A17A;
+  padding: 5px 13px;
+  border-radius: 3px;
+}
+
+#Third .all .text h2 {
+  margin-top: 25px;
+  font-size: 55px;
+  color: #fff;
+  font-family: "Bebas Neue", cursive;
+}
+
+#Third .all .text p {
+  font-size: 18px;
+  color: #a7a7a7;
+  margin-top: 30px;
+}
+
+#Fourth {
+  background-color: #000;
+  padding: 8rem;
+}
+
+#Fourth .head-text span {
+  font-family: "Jost", sans-serif;
+  color: #fff;
+  font-size: 12px;
+  background-color: #C7A17A;
+  padding: 5px 13px;
+  border-radius: 3px;
+}
+
+#Fourth .head-text h2 {
+  margin-top: 25px;
+  color: #ffffff;
+  font-size: 55px;
+  font-family: "Bebas Neue", cursive;
+}
+
+#Fourth .all {
+  margin-top: 3rem;
+}
+
+#Fourth .all .box {
+  padding: 36px 30px 36px 80px;
+  color: #212529;
+  border: 1px solid #a7a7a7;
+  margin-bottom: 33px;
+}
+
+#Fourth .all .box .icon {
+  display: none;
+}
+
+#Fourth .all .box .text h3 {
+  color: #ffffff;
+  font-size: 25px;
+}
+
+#Fourth .all .box .text h3 a {
+  color: #fff;
+  text-decoration: none;
+  font-family: "Bebas Neue", cursive;
+}
+
+#Fourth .all .box .text span {
+  color: #C7A17A;
+  font-size: 25px;
+  font-family: "Bebas Neue", cursive;
+}
+
+#Fifth {
+  padding: 5rem 0;
+  background-color: #000;
+}
+
+#Fifth .left .head-text h2 {
+  color: #fff;
+  font-family: "Bebas Neue", cursive;
+  font-size: 55px;
+}
+
+#Fifth .left .head-text p {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #a7a7a7;
+}
+
+#Fifth .left .button {
+  margin-top: 3.5rem;
+}
+
+#Fifth .left .button a {
+  padding: 14px 45px;
+  font-size: 12px;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 5px;
+  font-family: 'Babas Neue',cursive;
+  font-weight: bold;
+  background-color: #C7A17A;
+  border: 1px solid #C7A17A;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+#Fifth .left .button a:hover {
+  background-color: #212529;
+  border: 1px solid #212529;
+}
+
+#Sixth {
+  background-image: url(https://xpressrow.com/html/cafena/cafena/assets/images/bg/pp-bg-3-1.jpeg);
+  background-size: cover;
+  background-position: center;
+  padding: 20rem 0;
+}
+
+#Sixth .left-text span {
+  font-family: "Jost", sans-serif;
+  color: #fff;
+  font-size: 12px;
+  background-color: #C7A17A;
+  padding: 6px 17px;
+  border-radius: 3px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+#Sixth .left-text h2 {
+  margin-top: 25px;
+  color: #fff;
+  font-family: "Bebas Neue", cursive;
+  font-size: 55px;
+}
+
+#Sixth .button {
+  margin-top: 55px;
+}
+
+#Sixth .button a {
+  padding: 14px 45px;
+  font-size: 12px;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 5px;
+  font-family: 'Babas Neue',cursive;
+  font-weight: bold;
+  background-color: #C7A17A;
+  border: 1px solid #C7A17A;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+#Sixth .button a:hover {
+  background-color: #212529;
+  border: 1px solid #212529;
+}
+
+#Sixth .all .box {
+  border: 1px solid #a7a7a7;
+  -webkit-transition: .4s;
+  transition: .4s;
+  padding-bottom: 10rem;
+}
+
+#Sixth .all .box:hover {
+  background-color: #2d2d31;
+}
+
+#Sixth .all .box:hover .icons {
+  opacity: 1;
+}
+
+#Sixth .all .box:hover .default {
+  opacity: 0;
+}
+
+#Sixth .all .box:hover .on-hover {
+  opacity: 1;
+}
+
+#Sixth .all .box .icons {
+  margin-top: 1.5rem;
+  opacity: 0;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+#Sixth .all .box .icons i {
+  color: #fff;
+  font-size: 20px;
+  border: 1px solid #a7a7a7;
+  padding: 10px;
+  margin-right: 10px;
+  border-radius: 3px;
+  opacity: 0.8;
+}
+
+#Sixth .all .box .photo {
+  margin-top: 30px;
+}
+
+#Sixth .all .box .photo .on-hover {
+  margin-left: 30%;
+}
+
+#Sixth .all .box .photo .default {
+  margin-left: 30%;
+}
+/*# sourceMappingURL=style.css.map */

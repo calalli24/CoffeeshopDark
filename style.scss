@@ -1,0 +1,405 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#Header{
+    padding: 35px 0;
+    background-color: #000;
+    border-bottom: 1px solid rgb(41, 39, 39);
+    a{
+        text-decoration: none;
+        font-size: 16px;
+        font-family: "Jost", sans-serif;
+        font-weight:bold;
+        color: #fff;
+        transition: .4s;
+        &:hover{
+            color: #C7A17A;
+        }
+    }
+    i{
+        color: #fff;
+    }
+    .navbar2{
+        margin-right: 50px;
+        p{
+            margin-left: 45px;
+        }
+        .icons{
+            i{
+                margin-left: 45px;
+                font-size: 20px;
+            }
+        }
+    }
+}
+
+#Phone-Header{
+    display: none;
+    background-color: #000;
+    border-bottom: 1px solid rgb(39, 37, 37);
+    i{
+        color: #fff;
+        font-size: 20px;
+        margin-left: 30px;
+    }
+}
+
+@media(max-width:576px) {
+    #Header{
+        display: none;
+    }
+    #Phone-Header{
+        display: block;
+    }
+}
+
+
+
+#First{
+    background-image: url(https://xpressrow.com/html/cafena/cafena/assets/images/hero/hero-img-3-1.jpeg);
+    background-position: center;
+    background-size: cover;
+    padding: 13rem 0;
+    h1{
+        font-family: 'Bebas Neue', cursive;
+        color: #fff;
+        font-size: 100px;
+    }
+    p{
+        font-family: 'Jost',sans-serif;
+        font-size: 18px;
+        color: #a7a7a7;
+    }
+    .buttons{
+        margin-top:2rem;
+        .a1{
+            background-color: #C7A17A;
+            border: 1px solid #C7A17A;  
+            margin-right: 15px;
+            &:hover{
+                background-color: grey;
+            }
+        }
+        .a2{
+            border: 1px solid #a7a7a7;
+            &:hover{
+                background-color: #C7A17A;
+            }
+        }  
+        a{
+            padding: 14px 45px;
+            font-size: 12px;
+            text-decoration: none;
+            color: #fff;
+            border-radius: 5px;
+            font-family: 'Babas Neue',cursive;
+            font-weight: bold;
+            transition: .4s;
+        }
+    }
+
+    .links{
+        margin-top: 4rem;
+        .item{
+            margin-right: 40px;
+            i{
+                color: #fff;
+                margin: 4px 10px 0 0;
+            }
+            p{
+                font-family: 'Jost',sans-serif;
+                color: #fff;
+                font-weight: bold;
+                font-size: 16px;
+            }
+        }
+    }
+    
+    .video{
+        margin:20rem 0 0 25rem;
+        a{
+            &:hover{
+                i{
+                background-color: #C7A17A;
+                }
+            }
+            i{
+                transition: .4s;
+                text-align: center;
+                border-radius: 50%;
+                border: 1px solid #fff;
+                padding: 25px;
+                color: #fff;
+            }
+            span{
+                color: #fff;
+                text-decoration: none;
+                margin-right: 5px;
+                font-family: 'Jost',sans-serif;
+                font-weight: bold;
+            }
+        }
+    }
+}
+
+
+#Second{
+    background-color: #000;
+    padding: 7rem 0;
+    .left{
+        background-image: url(https://xpressrow.com/html/cafena/cafena/assets/images/products/f-1.jpeg);
+        background-size: cover;
+        background-position: center;
+    }
+    .mid{
+        background-image: url(https://xpressrow.com/html/cafena/cafena/assets/images/products/f-2.jpeg);
+        background-size: cover;
+        background-position: center;
+    }
+    .right{
+        background-image: url(https://xpressrow.com/html/cafena/cafena/assets/images/products/f-3.jpeg);
+        background-size: cover;
+        background-position: center;
+    }
+    .box{
+        padding:0 12rem 3rem 0;
+        border: 1px solid rgb(66, 64, 64);
+        .text{
+            margin: 30px 0 0 40px;
+        }
+        span{
+            font-size: 15px;
+            color: #C7A17A;
+        }
+        h2{
+            font-size: 24px;
+            color: #fff;
+            letter-spacing: 0.5px;
+            font-family: 'Jost',sans-serif;
+            font-weight: bold;
+        }
+        p{
+            font-size: 16px;
+            color: #fff;
+            opacity: 0.8;
+            font-family: 'Jost',sans-serif;
+        }
+    }
+}
+
+
+#Third{
+    padding: 8rem 0;
+    background-color: #000;
+    .all{
+        background-color:#13131A ;
+        border: 1px solid #32323D;
+        border-left: 0px;
+        text-align:left;
+        padding: 73px 17px;
+        .text{
+            margin-left: 3rem;
+            span{
+                font-family: "Jost", sans-serif;
+                color: #fff;
+                font-size: 12px;
+                background-color: #C7A17A;
+                padding: 5px 13px;
+                border-radius: 3px;
+            }
+            h2{
+                margin-top: 25px;
+               font-size: 55px;
+               color: #fff; 
+               font-family: "Bebas Neue", cursive;
+            }
+            p{
+                font-size: 18px;
+                color: #a7a7a7;
+                margin-top: 30px;
+            }
+        }
+    }
+}
+
+
+#Fourth{
+    background-color: #000;
+    padding: 8rem;
+    .head-text{
+        span{
+            font-family: "Jost", sans-serif;
+            color: #fff;
+            font-size: 12px;
+            background-color: #C7A17A;
+            padding: 5px 13px;
+            border-radius: 3px;
+        }
+        h2{
+            margin-top: 25px;
+            color: #ffffff;
+            font-size: 55px;
+            font-family: "Bebas Neue", cursive;
+        }
+    }
+
+    .all{
+        margin-top:3rem;
+        .box{
+            padding: 36px 30px 36px 80px;
+            color: #212529;
+            border: 1px solid #a7a7a7;
+            margin-bottom: 33px;
+            .icon{
+                display: none;
+            }
+            .text{
+                h3{
+                    color: #ffffff;
+                    font-size: 25px;
+                a{
+                    color: #fff;
+                    text-decoration: none;
+                    font-family: "Bebas Neue", cursive;
+                }
+            }
+            span{
+                color: #C7A17A;
+                font-size: 25px;
+                font-family: "Bebas Neue", cursive;
+            }
+            }
+        }
+    }
+}
+
+
+#Fifth{
+    padding: 5rem 0;
+    background-color: #000;
+    .left{
+        .head-text{
+            h2{
+                color: #fff;
+                font-family: "Bebas Neue", cursive;
+                font-size: 55px;
+            }
+            p{
+                margin-top: 20px;
+                font-size: 18px;
+                color: #a7a7a7;
+            }
+        }
+        .button{
+            margin-top: 3.5rem;
+            a{
+                padding: 14px 45px;
+                font-size: 12px;
+                text-decoration: none;
+                color: #fff;
+                border-radius: 5px;
+                font-family: 'Babas Neue',cursive;
+                font-weight: bold;
+                background-color: #C7A17A;
+                border: 1px solid #C7A17A;
+                transition: .4s;
+                &:hover{
+                    background-color: #212529;
+                    border: 1px solid #212529;
+                }
+            }
+        }
+    }
+}
+
+#Sixth{
+    background-image: url(https://xpressrow.com/html/cafena/cafena/assets/images/bg/pp-bg-3-1.jpeg);
+    background-size: cover;
+    background-position: center;
+    padding: 20rem 0;
+    .left-text{
+    span{
+        font-family: "Jost", sans-serif;
+        color: #fff;
+        font-size: 12px;
+        background-color: #C7A17A;
+        padding: 6px 17px;
+        border-radius: 3px;
+        font-weight: bold;
+        letter-spacing: 1px;
+    }
+    h2{
+        margin-top: 25px;
+        color: #fff;
+        font-family: "Bebas Neue", cursive;
+        font-size: 55px;
+    }
+}
+    .button{
+        margin-top: 55px;
+        a{
+            padding: 14px 45px;
+            font-size: 12px;
+            text-decoration: none;
+            color: #fff;
+            border-radius: 5px;
+            font-family: 'Babas Neue',cursive;
+            font-weight: bold;
+            background-color: #C7A17A;
+            border: 1px solid #C7A17A;
+            transition: .4s;
+            &:hover{
+                background-color: #212529;
+                border: 1px solid #212529;
+            }
+        }
+    }
+
+    .all{
+        .box{
+            border: 1px solid #a7a7a7;
+            transition: .4s;
+            padding-bottom: 10rem;
+            &:hover{
+                background-color: #2d2d31;
+                .icons{
+                    opacity: 1;
+                }
+                .default{
+                    opacity: 0;
+                }
+                .on-hover{
+                    opacity: 1;
+                }
+            }
+            .icons{
+                margin-top: 1.5rem;
+                opacity: 0; 
+                transition: .4s;               
+                i{
+                    color: #fff;
+                    font-size: 20px;
+                    border: 1px solid #a7a7a7;
+                    padding: 10px;
+                    margin-right: 10px;
+                    border-radius: 3px;
+                    opacity: 0.8;
+                }
+            }
+            .photo{
+                margin-top: 30px;
+                .on-hover{
+                    //opacity: 0;
+                    margin-left: 30%;
+                }
+                .default{
+                    margin-left: 30%;
+                }
+            }
+        }
+    }
+}   
